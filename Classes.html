@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html>
+<head><title>Classes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="http://blogtobollywood.com/wp-content/uploads/2014/08/icon-150x150.png" type="image/png">
+<link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<style type="text/css">
+        * {
+            font-family: Raleway;
+        }
+
+        .on-right {
+            text-align: right;
+        }
+
+        body {
+            padding: 20px 30px 20px 30px;
+            background-color: black;
+            color: white;
+            background-image: url("image/background.jpg");
+            background-repeat: repeat;
+            background-position: 50%;
+        }
+
+        a {
+            color: white;
+            font-weight: bold;
+        }
+
+        .hide{
+        display:none!important;
+        }
+
+        .show{
+        display:block!important;
+        }
+
+        .container:after,.container:before{
+        content:"";
+        display:table;
+        clear:both
+        }
+        .container{
+        margin-top:16px;
+        margin-bottom:16px;
+        margin-left:3em;
+        }
+
+        .smallContainer{
+        margin-top:16px;
+        margin-bottom:16px;
+        width:300px;       
+        }
+
+        .text{
+        width:500px;
+
+        }
+
+        .button{
+        border:none;
+        display:inline-block;
+        outline:0;
+        padding:8px 16px;
+        vertical-align:middle;
+        overflow:hidden;
+        text-decoration:none;
+        color:inherit;
+        background-color:inherit;
+        text-align:center;
+        cursor:pointer;
+        white-space:nowrap}
+        
+        .block{
+        display:block; width:100%
+        }
+
+        .white:hover{
+        color:#000!important;
+        background-color:#fff!important; 
+        opacity:0.5;      
+        }
+
+        .spacing {
+        line-height: 200%;
+        font-size: 14px;
+        width: 400px;
+        }
+
+</style>
+    <script>
+        function myFunction(id) {
+             var x = document.getElementById(id);
+         if (x.className.indexOf("show") == -1) {
+              x.className += " show";
+         } else {
+              x.className = x.className.replace(" show", "");
+         }
+        }
+    </script>
+</head>
+
+
+<body>
+    <p class="on-right">
+        <a href="file:///C:/First%20year/CS601/Term%20project/ChiNguyen-firstpage.html">Home</a> &nbsp; 
+        <a href="file:///C:/First%20year/CS601/Term%20project/Aboutme.html">About me</a> &nbsp;
+        <a href="file:///C:/First%20year/CS601/Term%20project/Hobbies.html">Hobby</a> &nbsp; 
+        <a href="file:///C:/First%20year/CS601/Term%20project/Classes.html">Classes</a> &nbsp;
+        <a href="file:///C:/First%20year/CS601/Term%20project/Contact%20me.html">Contact</a>
+    </p>
+    <div class="container">
+        <center><h1 style="font-size:60px">Classes</h1>
+            <p>
+                &nbsp; &nbsp; Since I have been in the program for almost a year, I have taken quite a few classes. Here are classes that I have taken
+                or am currently taking with some reviews for each one.
+            </p>
+        </center>
+
+        <!--1-->
+        <div class="smallContainer">
+            <button style="margin-left:55em" onclick="myFunction('Demo1')" class="button block white"><h1>CS520</h1></button>
+        </div>
+        <div id="Demo1" class="hide">
+            <center><h3>Information Structure with Java</h3></center>
+            <p style="width:1200px; padding-left:19em" class="spacing">
+                &nbsp; &nbsp;This class is not a difficult one. I learned a lot
+                about machine learning and object-oriented structures. Professor was really helpful in showing the processes.
+            </p>
+        </div>
+
+        <!--2-->
+        <div class="smallContainer">
+            <button style="margin-left:55em" onclick="myFunction('Demo2')" class="button block white"><h1>CS625</h1></button>
+
+        </div>
+        <div id="Demo2" class="container hide">
+            <h3 style="margin-left:35em">Business Data Communication and Networks</h3>
+            <p style="width:1200px; padding-left:15em" class="spacing">
+                &nbsp; &nbsp;A foundation class of data communications and take a bottom-up approach to computer networks.
+                The assignments and quizzes are very helpful to learn the material. The term project is time-consuming but doable. 
+                You will have fun converting binary numbers back and forth.
+            </p>
+        </div>
+        
+        <!--3-->
+        <div class="smallContainer">
+            <button style="margin-left:55em" onclick="myFunction('Demo3')" class="button block white"><h1>CS669</h1></button>
+        </div>
+        <div id="Demo3" class="container hide">
+            <h3 style="margin-left:35em">Database Design and Implementation for Business</h3>
+            <p style="width:1200px; padding-left:15em" class="spacing">
+                &nbsp; &nbsp;You will learn how to design a database system using SQL. It comes in really handy in the future. The term project
+                is somewhat interesting. You will design either a database for hospital or for Netflix, so it will be fun to play around a bit.
+            </p>
+        </div>
+
+        <!--4-->
+        <div class="smallContainer">
+            <button style="margin-left:55em" onclick="myFunction('Demo4')" class="button block white"><h1>CS682</h1></button>
+
+        </div>
+        <div id="Demo4" class="container hide">
+            <h3 style="margin-left:35em">Information Systems Analysis and Design</h3>
+            <p style="width:1200px; padding-left:15em" class="spacing">
+                &nbsp; &nbsp;A class about how to design and analyze the system. You will learn about System feasibility; requirements analysis; database utilization; Unified Modeling Language; 
+                software system architecture, design, and implementation, management; project control; and systems-level testing. There will be a group presentation.
+            </p>
+        </div>
+
+        <!--5-->
+        <div class="smallContainer">
+            <button style="margin-left:55em" onclick="myFunction('Demo5')" class="button block white"><h1>CS782</h1></button>
+        </div>
+        <div id="Demo5" class="container hide">
+            <h3 style="margin-left:38em">IT Strategy and Management</h3>
+            <p style="width:1200px; padding-left:15em" class="spacing">
+                &nbsp; &nbsp;I will go ahead and say this class is a bit of a waste of time. Unless you are already in the manager position, this class
+                will not contribute much to your understanding in information system.
+            </p>
+        </div>
+
+        <!--6-->
+        <div class="smallContainer">
+            <button style="margin-left:55em" onclick="myFunction('Demo6')" class="button block white"><h1>CS521</h1></button>
+
+        </div>
+        <div id="Demo6" class="container hide">
+            <h3 style="margin-left:36em">Information Structures with Python</h3>
+            <p style="width:1200px; padding-left:15em" class="spacing">
+                &nbsp; &nbsp;Python is really important in Big Data. Python is actually really interesting to learn, and comparing to Java or C++, it is 
+                much simpler. My professor is not a very good at explaining stuffs, so it can be challenging quite a bit.
+            </p>
+        </div>
+
+        <!--7-->
+        <div class="smallContainer">
+            <button style="margin-left:55em" onclick="myFunction('Demo7')" class="button block white"><h1>CS546</h1></button>
+
+        </div>
+        <div id="Demo7" class="container hide">
+            <h3 style="margin-left:35em">Quantitative Methods for Information Systems</h3>
+            <p style="width:1200px; padding-left:15em" class="spacing">
+                &nbsp; &nbsp;This is a pure math class. If you are good at Algebra and Calculus 1, then it will be a breez. I personally do not have any
+                problem keeping up with the works. The professor is knowledgable and explains everything throughly.
+            </p>
+        </div>
+
+        <!--8-->
+        <div class="smallContainer">
+            <button style="margin-left:55em" onclick="myFunction('Demo8')" class="button block white"><h1>CS601</h1></button>
+
+        </div>
+        <div id="Demo8" class="container hide">
+            <h3 style="margin-left:37em">Web Application Development</h3>
+            <p style="width:1200px; padding-left:15em" class="spacing">
+                &nbsp; &nbsp;A class about web developing. It is actually fun to learn HTML, CSS, and JavaScript.Maybe I have not reached the higher level,
+                but this is definitely more relaxing than studying Python, Java, or C++. The term project is about creating your own websites. I do enjoy
+                doing these, even though it can be a bit time-consuming.
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>

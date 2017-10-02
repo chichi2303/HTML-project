@@ -1,0 +1,67 @@
+﻿/*Page 3*/
+          .containerG {
+          position: relative;
+          width: 750px; 
+          height : 400px;
+          }
+
+          .containerC{
+          position: relative;
+          width: 750px; 
+          height : 400px;
+          padding-left: 760px;
+          
+          }
+          
+          .imageR {
+          position: absolute;
+          max-height: 400px;
+          max-width: 750px;
+          }
+
+          .imageL {
+          position: absolute;
+          max-height: 400px;
+          max-width: 600px;
+          }
+
+          .text {
+          position: absolute;
+          color : white;
+          font-size: 24px; 
+          font-weight: bold;
+          background-color: black;
+          height: 100px;
+          width: 710px;
+          top: 300px;
+          opacity: 0.6;
+          }
+          .textC {
+          position: absolute;
+          color : white;
+          font-size: 24px; 
+          font-weight: bold;
+          background-color: black;
+          height: 100px;
+          width: 650px;
+          top: 300px;
+          opacity: 0.6;
+          }
+          
+          .text > p:nth-child(1) {
+           margin: 1em 0 0.5em 0em;         
+          }
+          .text p:nth-child(2)
+          {
+          margin: 0 0 0 0em;
+          font-size: 12px;
+          }
+
+          .textC > p:nth-child(1) {
+           margin: 1em 0 0.5em 0em;         
+          }
+          .textC p:nth-child(2)
+          {
+          margin: 0 2em 0 0em;
+          font-size: 12px;
+          }
